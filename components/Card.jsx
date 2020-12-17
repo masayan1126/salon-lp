@@ -3,7 +3,7 @@ import React, { useCallback, useState, useEffect } from "react";
 
 const Card = () => {
   return (
-    <div className="w-11/12 mx-auto h-screen">
+    <div className="w-11/12 mx-auto">
       <p className="text-2xl text-gray-300">Simple Card</p>
       <div className="card__container w-56 h-auto shadow-md max-w-sm rounded-md">
         <div className="card__imgframe w-full h-auto box-border">
