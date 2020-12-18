@@ -6,7 +6,7 @@ import "@fullcalendar/common/main.css";
 import "@fullcalendar/daygrid/main.css";
 import Modal from "../../components/Modal";
 
-const IndexPage = () => {
+const Calendar = () => {
   const [isDisplay, setIsDisplay] = useState(false);
 
   const log = () => {
@@ -27,4 +27,4 @@ const IndexPage = () => {
   );
 };
 
-export default IndexPage;
+export default Calendar;
