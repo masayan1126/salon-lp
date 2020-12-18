@@ -11,6 +11,7 @@ const IndexPage = () => {
 
   const log = () => {
     setIsDisplay(true);
+    console.log(isDisplay);
   };
 
   return (
