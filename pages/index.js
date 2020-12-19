@@ -23,10 +23,10 @@ export default function Home() {
       </Head>
 
       <main>
-        <Link href="/components/cards">
+        <Link href="/cards">
           <a>カードコンポーネントを見る</a>
         </Link>
-        <Link href="/components/calendar">
+        <Link href="/calendar">
           <a>カレンダーコンポーネントを見る</a>
         </Link>
       </main>

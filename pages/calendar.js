@@ -4,7 +4,7 @@ import dayGridPlugin from "@fullcalendar/daygrid";
 import interactionPlugin from "@fullcalendar/interaction";
 import "@fullcalendar/common/main.css";
 import "@fullcalendar/daygrid/main.css";
-import Modal from "../../components/Modal";
+import Modal from "../components/Modal";
 
 const Calendar = () => {
   const [isDisplay, setIsDisplay] = useState(false);
