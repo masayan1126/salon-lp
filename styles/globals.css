@@ -33,3 +33,7 @@ a {
     transform: translateY(0);
   }
 }
+
+.uc-bg-orange {
+  background-color: #d35c37;
+}
