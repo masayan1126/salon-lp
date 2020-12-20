@@ -1,5 +1,4 @@
 import React, { useCallback, useState, useEffect } from "react";
-import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 
 const Footer = () => {
   return (
