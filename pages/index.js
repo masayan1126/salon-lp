@@ -3,9 +3,9 @@ import Head from "next/head";
 import Link from "next/link";
 import Top from "./top";
 import Service from "./service";
-import Works from "./Works";
-import Contact from "./Contact";
-import Footer from "./Footer";
+import Works from "./works";
+import Contact from "./contact";
+import Footer from "./footer";
 
 export default function Home() {
   if (process.browser) {
