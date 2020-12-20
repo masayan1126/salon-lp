@@ -37,3 +37,14 @@ a {
 .uc-bg-orange {
   background-color: #d35c37;
 }
+
+.uc-bg-blue {
+  background-color: #97b8c2;
+}
+
+.uc-text-orange {
+  color: #d35c37;
+}
+.uc-text-blue {
+  color: #97b8c2;
+}

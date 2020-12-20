@@ -3,6 +3,9 @@ import Head from "next/head";
 import Link from "next/link";
 import Top from "./top";
 import Service from "./service";
+import Works from "./Works";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 export default function Home() {
   if (process.browser) {
@@ -29,9 +32,13 @@ export default function Home() {
       <main>
         <Top />
         <Service />
+        <Works />
+        <Contact />
       </main>
 
-      <footer></footer>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

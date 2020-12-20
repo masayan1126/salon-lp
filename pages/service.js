@@ -1,38 +1,54 @@
 import React, { useCallback, useState, useEffect } from "react";
+import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
+import WebIcon from "@material-ui/icons/Web";
+import AppsIcon from "@material-ui/icons/Apps";
+import ColorLensIcon from "@material-ui/icons/ColorLens";
+import { makeStyles } from "@material-ui/core/styles";
+
+const useStyles = makeStyles({
+  root: {},
+});
 
 const Service = () => {
+  const classes = useStyles();
   return (
-    <section class="text-gray-700 body-font h-screen flex items-start">
-      <div class="container px-5 py-24 mx-auto">
-        <h1 class="sm:text-3xl text-2xl font-medium title-font text-center text-gray-900 mb-20">
-          Service
-          <br class="hidden sm:block" />
-          事業内容
-        </h1>
+    <section class="text-gray-700 body-font h-auto">
+      <div class="container mx-auto p-10">
+        <div class="text-center mb-20">
+          <h1 class="sm:text-4xl text-4xl font-medium title-font text-gray-900 mb-4">
+            Service
+          </h1>
+          <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+            Blue bottle crucifix vinyl post-ironic four dollar toast vegan pug.
+          </p>
+          <div class="flex mt-6 justify-center">
+            <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
+          </div>
+        </div>
         <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
-          <div class="p-4 md:w-1/3 md:mb-0 mb-6 flex">
-            <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 flex-shrink-0">
-              <svg
+          <div class="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col text-center items-center">
+            <div class="w-20 h-20 inline-flex items-center justify-center rounded-full uc-bg-blue text-white mb-5 flex-shrink-0">
+              {/* <svg
                 fill="none"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width="2"
-                class="w-6 h-6"
+                class="w-10 h-10"
                 viewBox="0 0 24 24"
               >
                 <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-              </svg>
+              </svg> */}
+              <WebIcon fontSize="large" />
             </div>
-            <div class="flex-grow pl-6">
-              <h2 class="text-gray-900 text-lg title-font font-medium mb-2">
-                Shooting Stars
+            <div class="flex-grow">
+              <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
+                WEB制作
               </h2>
               <p class="leading-relaxed text-base">
                 Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                 taxidermy. Gastropub indxgo juice poutine, ramps microdosing
-                banh mi pug VHS try-hard ugh iceland kickstarter tumblr
-                live-edge tilde.
+                banh mi pug VHS try-hard.
               </p>
               <a class="mt-3 text-indigo-500 inline-flex items-center">
                 Learn More
@@ -50,31 +66,18 @@ const Service = () => {
               </a>
             </div>
           </div>
-          <div class="p-4 md:w-1/3 md:mb-0 mb-6 flex">
-            <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 flex-shrink-0">
-              <svg
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                class="w-6 h-6"
-                viewBox="0 0 24 24"
-              >
-                <circle cx="6" cy="6" r="3"></circle>
-                <circle cx="6" cy="18" r="3"></circle>
-                <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
-              </svg>
+          <div class="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col text-center items-center">
+            <div class="w-20 h-20 inline-flex items-center justify-center rounded-full uc-bg-blue text-white mb-5 flex-shrink-0">
+              <AppsIcon fontSize="large" />
             </div>
-            <div class="flex-grow pl-6">
-              <h2 class="text-gray-900 text-lg title-font font-medium mb-2">
-                The Catalyzer
+            <div class="flex-grow">
+              <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
+                WEBアプリ開発
               </h2>
               <p class="leading-relaxed text-base">
                 Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                 taxidermy. Gastropub indxgo juice poutine, ramps microdosing
-                banh mi pug VHS try-hard ugh iceland kickstarter tumblr
-                live-edge tilde.
+                banh mi pug VHS try-hard.
               </p>
               <a class="mt-3 text-indigo-500 inline-flex items-center">
                 Learn More
@@ -92,30 +95,18 @@ const Service = () => {
               </a>
             </div>
           </div>
-          <div class="p-4 md:w-1/3 md:mb-0 mb-6 flex">
-            <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 flex-shrink-0">
-              <svg
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                class="w-6 h-6"
-                viewBox="0 0 24 24"
-              >
-                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                <circle cx="12" cy="7" r="4"></circle>
-              </svg>
+          <div class="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col text-center items-center">
+            <div class="w-20 h-20 inline-flex items-center justify-center rounded-full uc-bg-blue text-white mb-5 flex-shrink-0">
+              <ColorLensIcon fontSize="large" />
             </div>
-            <div class="flex-grow pl-6">
-              <h2 class="text-gray-900 text-lg title-font font-medium mb-2">
-                Neptune
+            <div class="flex-grow">
+              <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
+                WEBデザイン
               </h2>
               <p class="leading-relaxed text-base">
                 Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                 taxidermy. Gastropub indxgo juice poutine, ramps microdosing
-                banh mi pug VHS try-hard ugh iceland kickstarter tumblr
-                live-edge tilde.
+                banh mi pug VHS try-hard.
               </p>
               <a class="mt-3 text-indigo-500 inline-flex items-center">
                 Learn More
@@ -134,6 +125,9 @@ const Service = () => {
             </div>
           </div>
         </div>
+        <button class="flex mx-auto mt-16 text-white uc-bg-orange border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+          問い合わせる
+        </button>
       </div>
     </section>
   );
