@@ -1,6 +1,8 @@
 import React, { useCallback, useState, useEffect } from "react";
 import Head from "next/head";
 import Link from "next/link";
+import Top from "./top";
+import Service from "./service";
 
 export default function Home() {
   if (process.browser) {
@@ -16,19 +18,17 @@ export default function Home() {
   }
 
   return (
-    <div className="font-sans bg-blue-900">
+    <div className="">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <header></header>
+
       <main>
-        <Link href="/cards">
-          <a>カードコンポーネントを見る</a>
-        </Link>
-        <Link href="/calendar">
-          <a>カレンダーコンポーネントを見る</a>
-        </Link>
+        <Top />
+        <Service />
       </main>
 
       <footer></footer>
