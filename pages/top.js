@@ -16,12 +16,11 @@ const Top = () => {
         </div>
         <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
           <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-            専門性を活かしたWEBデザインと
             <br class="hidden lg:inline-block" />
-            コーディングで高品質なプロダクトをお届けします。
+            高品質なWEBプロダクトをお届け。
           </h1>
           <p class="mb-8 leading-relaxed">
-            私たちは、パートナー制度を採用しています。これにより、デザイン・コーディング双方の領域において、より高品質かつ専門性の高いプロダクトを作成する事が可能です。
+            現役のWEBエンジニアとデザイナーがお客様のアイデアをWEBサービスとして提供します。デザイン・コーディング双方の領域において、より高品質かつ専門性の高いプロダクトを作成する事が可能です。
           </p>
           <div class="flex justify-center">
             <button class="inline-flex text-white uc-bg-orange border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">

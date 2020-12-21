@@ -17,34 +17,35 @@ const Contact = () => {
               Whatever cardigan tote bag tumblr
             </p>
           </div>
-          <div class="sm:w-1/2 mb-10 px-4">
+          <div class="w-full sm:w-1/2 mb-10 px-12 sm:px-10">
             <div class="rounded-lg h-64 overflow-hidden">
               <img
                 alt="content"
-                class="object-cover object-center h-full w-1/2 mx-auto"
+                class="object-cover object-center h-full mx-auto"
                 src="/profile_image.jpg"
               />
             </div>
-            <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3 sm:text-left md:px-32">
+            <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3 sm:text-center">
               Masaya Nishigaki
             </h2>
-            <p class="leading-relaxed sm:text-left md:px-24">
-              Williamsburg occupy sustainable snackwave gochujang. Pinterest
-              cornhole brunch, slow-carb neutra irony.
+            <p class="leading-relaxed text-center">
+              大阪でWEBエンジニアをしています。WEB制作やアプリ開発が得意です。
+              使用技術はPHP、Laravel、React、Vue、Next.js、Firebase、TailWindCss、
+              Material-Uiなど。
             </p>
           </div>
-          <div class="sm:w-1/2 mb-10 px-4">
+          <div class="w-full sm:w-1/2 mb-10 px-12 sm:px-10">
             <div class="rounded-lg h-64 overflow-hidden">
               <img
                 alt="content"
-                class="object-cover object-center h-full w-1/2 mx-auto"
-                src="https://dummyimage.com/1202x502"
+                class="object-cover object-center h-full mx-auto"
+                src=""
               />
             </div>
-            <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3 sm:text-left md:px-32">
-              The Catalyzer
+            <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3 sm:text-center">
+              高田亜沙子
             </h2>
-            <p class="leading-relaxed text-base sm:text-left md:px-32">
+            <p class="leading-relaxed text-center">
               Williamsburg occupy sustainable snackwave gochujang. Pinterest
               cornhole brunch, slow-carb neutra irony.
             </p>
