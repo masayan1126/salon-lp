@@ -19,11 +19,11 @@ const Service = () => {
             Service
           </h1>
           <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Blue bottle crucifix vinyl post-ironic four dollar toast vegan pug.
+            Webに特化したサービスを展開しています
           </p>
-          <div class="flex mt-6 justify-center">
+          {/* <div class="flex mt-6 justify-center">
             <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
-          </div>
+          </div> */}
         </div>
         <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
           <div class="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col text-center items-center">
@@ -46,11 +46,9 @@ const Service = () => {
                 WEB制作
               </h2>
               <p class="leading-relaxed text-base">
-                Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                taxidermy. Gastropub indxgo juice poutine, ramps microdosing
-                banh mi pug VHS try-hard.
+                ランディングページ、ホームページ、ECサイトなどのWEBサイト制作を承っております
               </p>
-              <a class="mt-3 text-indigo-500 inline-flex items-center">
+              {/* <a class="mt-3 text-indigo-500 inline-flex items-center">
                 Learn More
                 <svg
                   fill="none"
@@ -63,7 +61,7 @@ const Service = () => {
                 >
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
-              </a>
+              </a> */}
             </div>
           </div>
           <div class="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col text-center items-center">
@@ -79,7 +77,7 @@ const Service = () => {
                 taxidermy. Gastropub indxgo juice poutine, ramps microdosing
                 banh mi pug VHS try-hard.
               </p>
-              <a class="mt-3 text-indigo-500 inline-flex items-center">
+              {/* <a class="mt-3 text-indigo-500 inline-flex items-center">
                 Learn More
                 <svg
                   fill="none"
@@ -92,7 +90,7 @@ const Service = () => {
                 >
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
-              </a>
+              </a> */}
             </div>
           </div>
           <div class="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col text-center items-center">
@@ -108,7 +106,7 @@ const Service = () => {
                 taxidermy. Gastropub indxgo juice poutine, ramps microdosing
                 banh mi pug VHS try-hard.
               </p>
-              <a class="mt-3 text-indigo-500 inline-flex items-center">
+              {/* <a class="mt-3 text-indigo-500 inline-flex items-center">
                 Learn More
                 <svg
                   fill="none"
@@ -121,13 +119,10 @@ const Service = () => {
                 >
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
-        <button class="flex mx-auto mt-16 text-white uc-bg-orange border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-          問い合わせる
-        </button>
       </div>
     </section>
   );
