@@ -3,10 +3,10 @@ import React, { useCallback, useState, useEffect } from "react";
 const Top = () => {
   return (
     <section
-      class="uc-bg-gray text-gray-700 body-font h-screen flex items-center sm:items-center"
+      class="uc-bg-blue text-gray-700 body-font h-screen flex items-center sm:items-center"
       id="top"
     >
-      <div class="uc-fadein container mx-auto flex md:flex-row flex-col items-center">
+      <div class="py-24 px-5 uc-fadein container mx-auto flex md:flex-row flex-col items-center">
         <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
           <img
             class="object-cover object-center rounded"
