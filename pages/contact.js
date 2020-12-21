@@ -3,7 +3,10 @@ import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 
 const Contact = () => {
   return (
-    <section class="text-gray-700 body-font h-auto">
+    <section
+      class="text-gray-700 body-font h-auto sm:h-screen sm:flex sm:items-center"
+      id="contact"
+    >
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-wrap -mx-4 -mb-10 text-center">
           <div class="flex flex-col text-center w-full mb-20">

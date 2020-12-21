@@ -11,9 +11,10 @@ const useStyles = makeStyles({
 
 const Service = () => {
   const classes = useStyles();
+
   return (
-    <section class="text-gray-700 body-font h-auto">
-      <div class="container mx-auto p-10">
+    <section class="text-gray-700 body-font h-auto sm:h-screen sm:flex sm:items-center">
+      <div class="container mx-auto" id="service">
         <div class="text-center mb-20">
           <h1 class="sm:text-4xl text-4xl font-medium title-font text-gray-900 mb-4">
             Service
