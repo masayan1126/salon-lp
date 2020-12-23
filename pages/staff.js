@@ -20,13 +20,11 @@ const Staff = () => {
               src="/staff-1.JPG"
             />
             <div class="flex-grow">
-              <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
+              <h2 class="mt-4 text-gray-900 text-lg title-font font-medium mb-3">
                 江藤 加奈子
               </h2>
-              <p class="leading-relaxed text-base">
-                Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                taxidermy. Gastropub indxgo juice poutine, ramps microdosing
-                banh mi pug VHS try-hard.
+              <p class="px-16 leading-relaxed text-xs">
+                お客様の髪質や輪郭に合わせた自然なスタイリングが得意です。
               </p>
             </div>
           </div>
@@ -37,13 +35,11 @@ const Staff = () => {
               src="/staff-2.JPG"
             />
             <div class="flex-grow">
-              <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
+              <h2 class="mt-4 text-gray-900 text-lg title-font font-medium mb-3">
                 水島 利恵
               </h2>
-              <p class="leading-relaxed text-base">
-                Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                taxidermy. Gastropub indxgo juice poutine, ramps microdosing
-                banh mi pug VHS try-hard.
+              <p class="px-16 leading-relaxed text-xs">
+                流行りのカラーやスタイルなど、トレンドをおさえたスタイリングが得意です。
               </p>
             </div>
           </div>
@@ -54,13 +50,11 @@ const Staff = () => {
               src="/staff-3.JPG"
             />
             <div class="flex-grow">
-              <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
+              <h2 class="mt-4 text-gray-900 text-lg title-font font-medium mb-3">
                 斎藤 翔太
               </h2>
-              <p class="leading-relaxed text-base">
-                Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                taxidermy. Gastropub indxgo juice poutine, ramps microdosing
-                banh mi pug VHS try-hard.
+              <p class="px-16 leading-relaxed text-xs">
+                　お客様の個性を活かしつつ、ナチュラルなスタイリングが得意です。
               </p>
             </div>
           </div>

@@ -31,11 +31,10 @@ const Menu = () => {
             <h2 class="text-gray-900 text-lg title-font font-medium mb-2">
               ヘアーカット ¥6000〜
             </h2>
-            <p class="leading-relaxed text-base">
-              Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-              taxidermy. Gastropub indxgo juice poutine.
+            <p class="px-14 leading-relaxed text-xs">
+              お客様のご要望に沿ったヘアーカットをさせていただきます。
             </p>
-            <a class="mt-3 inline-flex items-center">
+            <a class="mt-3 inline-flex items-center text-xs">
               詳細を見る
               <svg
                 fill="none"
@@ -61,11 +60,11 @@ const Menu = () => {
             <h2 class="text-gray-900 text-lg title-font font-medium mb-2">
               ヘッドスパ ¥6000〜
             </h2>
-            <p class="leading-relaxed text-base">
-              Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-              taxidermy. Gastropub indxgo juice poutine.
+            <p class="px-12 leading-relaxed text-xs">
+              高品質なトリートメントを掛け合わせた専用のマッサージ液を使用して、
+              適度な力加減でお客様の日頃の疲れを癒します。
             </p>
-            <a class="mt-3 inline-flex items-center">
+            <a class="mt-3 inline-flex items-center text-xs">
               詳細を見る
               <svg
                 fill="none"
@@ -91,11 +90,10 @@ const Menu = () => {
             <h2 class="text-gray-900 text-lg title-font font-medium mb-2">
               カラー ¥6000〜
             </h2>
-            <p class="leading-relaxed text-base">
-              Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-              taxidermy. Gastropub indxgo juice poutine.
+            <p class="px-12 leading-relaxed text-xs">
+              お客様の髪質を保ったまま、お好みのカラーリングに仕上げます。
             </p>
-            <a class="mt-3 inline-flex items-center">
+            <a class="mt-3 inline-flex items-center text-xs">
               詳細を見る
               <svg
                 fill="none"
@@ -121,11 +119,10 @@ const Menu = () => {
             <h2 class="text-gray-900 text-lg title-font font-medium mb-2">
               パーマ ¥8000〜
             </h2>
-            <p class="leading-relaxed text-base">
-              Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-              taxidermy. Gastropub indxgo juice poutine.
+            <p class="px-12 leading-relaxed text-xs">
+              コールドパーマからデジタルパーマ、エアウエーブなど、お客様の髪質とご要望に沿ったパーマネントウエーブをご提案します。
             </p>
-            <a class="mt-3 inline-flex items-center">
+            <a class="mt-3 inline-flex items-center text-xs">
               詳細を見る
               <svg
                 fill="none"
