@@ -34,25 +34,34 @@ a {
   }
 }
 
-.uc-bg-orange {
-  background-color: #d35c37;
-}
-
-.uc-bg-orange-dark {
-  background-color: #ff3c00;
-}
-
 .uc-bg-gray {
-  background-color: #d6c6b9;
+  background-color: #eae2d6;
 }
 
-.uc-bg-blue {
-  background-color: #97b8c2;
+.uc-bg-beige {
+  background-color: #d5c3aa;
 }
 
-.uc-text-orange {
-  color: #d35c37;
+.uc-bg-brown {
+  background-color: #867666;
 }
-.uc-text-blue {
-  color: #97b8c2;
+
+.uc-bg-yellow {
+  background-color: #e1b80d;
+}
+
+.uc-text-gray {
+  color: #eae2d6;
+}
+
+.uc-text-beige {
+  color: #d5c3aa;
+}
+
+.uc-text-brown {
+  color: #867666;
+}
+
+.uc-text-yellow {
+  color: #e1b80d;
 }

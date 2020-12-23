@@ -2,9 +2,9 @@ import React, { useCallback, useState, useEffect } from "react";
 import Head from "next/head";
 import Link from "next/link";
 import Top from "./top";
-import Service from "./service";
-import Works from "./works";
-import Contact from "./contact";
+import Menu from "./Menu";
+import Staff from "./staff";
+import Access from "./access";
 import Footer from "./footer";
 // import $ from "jquery";
 
@@ -12,21 +12,26 @@ export default function Home() {
   if (process.browser) {
     window.onscroll = () => {
       console.log(`現時点のY座標${window.pageYOffset}`);
-      const serviceSectionHeight = document.getElementById("service");
-      const worksSectionHeight = document.getElementById("works");
+      const menuSectionHeight = document.getElementById("menu");
+      const staffSectionHeight = document.getElementById("staff");
+      const accessSectionHeight = document.getElementById("access");
       console.log(
         `サービスセクションの高さ${
-          serviceSectionHeight.getBoundingClientRect().bottom
+          menuSectionHeight.getBoundingClientRect().bottom
         }`
       );
-      if (
-        window.pageYOffset > serviceSectionHeight.getBoundingClientRect().top
-      ) {
-        serviceSectionHeight.classList.add("uc-fadein");
+      if (window.pageYOffset > menuSectionHeight.getBoundingClientRect().top) {
+        menuSectionHeight.classList.add("uc-fadein");
       }
 
-      if (window.pageYOffset > worksSectionHeight.getBoundingClientRect().top) {
-        worksSectionHeight.classList.add("uc-fadein");
+      if (window.pageYOffset > staffSectionHeight.getBoundingClientRect().top) {
+        staffSectionHeight.classList.add("uc-fadein");
+      }
+
+      if (
+        window.pageYOffset > accessSectionHeight.getBoundingClientRect().top
+      ) {
+        accessSectionHeight.classList.add("uc-fadein");
       }
     };
   }
@@ -62,7 +67,7 @@ export default function Home() {
   }
 
   return (
-    <div className="">
+    <div className="uc-bg-gray">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
@@ -72,9 +77,9 @@ export default function Home() {
 
       <main>
         <Top />
-        <Service />
-        <Works />
-        <Contact />
+        <Menu />
+        <Staff />
+        <Access />
       </main>
 
       <footer>
