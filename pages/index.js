@@ -2,7 +2,7 @@ import React, { useCallback, useState, useEffect } from "react";
 import Head from "next/head";
 import Link from "next/link";
 import Top from "./top";
-import Menu from "./Menu";
+import Menu from "./menu";
 import Staff from "./staff";
 import Access from "./access";
 import Footer from "./footer";
